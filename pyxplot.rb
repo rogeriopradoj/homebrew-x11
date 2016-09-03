@@ -10,7 +10,7 @@ class Pyxplot < Formula
   depends_on :x11
   depends_on :tex
   depends_on "fftw"
-  depends_on "cfitsio" => :recommended
+  depends_on "homebrew/science/cfitsio" => :recommended
   depends_on "gv" => :recommended
   depends_on "wget" => :recommended
   depends_on "ghostscript" => "with-x11"
